@@ -45,7 +45,8 @@ function onSearch(e) {
 
     appendMarkup(data);
     lightbox.refresh();
-  });
+  }
+  );
 
   clearGallery();
 }
@@ -108,5 +109,6 @@ function onLoadMore() {
       );
       loadMoreBtn.style.display = 'none';
     }
-  });
+  }
+  );
 }
