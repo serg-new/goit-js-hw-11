@@ -5,8 +5,10 @@ import CardsApiService from './cards-service';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-let SimpleLightbox = new SimpleLightbox('.gallery a', {
+let lightbox = new SimpleLightbox('.gallery a', {
+  captionDelay: 250,
   animationSpeed: 250,
+  fadeSpeed: 200,
 });
 
 const searchForm = document.querySelector('#search-form');
